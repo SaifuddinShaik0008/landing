@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark  hide ">
+            <div class="container-fluid main">
+                <a class="navbar-brand ps-5" href="#">
+                HUI Car rentals
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fleet">Fleet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#booking">Booking</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid p-0">
+        <div id="wowslider-container1">
+            <div class="ws_images"><ul>
+                    <li><img src="data1/images/suv.jpg" alt="EXCLUSIVE" title="EXCLUSIVE" id="wows1_0"/></li>
+                    <li><a href="http://wowslider.net"><img src="data1/images/bg.jpg" alt="html slider" title="RENTAL" id="wows1_1"/></a></li>
+                    <li><img src="data1/images/360_f_583926930_5aq1ntkterjjus2srbrp5yecf9xprc0w.jpg" alt="PRICIOUS CARS" title="PRICIOUS CARS" id="wows1_2"/></li>
+                </ul></div>
+                <div class="ws_bullets"><div>
+                    <a href="#" title="EXCLUSIVE"><span><img src="data1/tooltips/suv.jpg" alt="EXCLUSIVE"/>1</span></a>
+                    <a href="#" title="RENTAL"><span><img src="data1/tooltips/bg.jpg" alt="RENTAL"/>2</span></a>
+                    <a href="#" title="PRICIOUS CARS"><span><img src="data1/tooltips/360_f_583926930_5aq1ntkterjjus2srbrp5yecf9xprc0w.jpg" alt="PRICIOUS CARS"/>3</span></a>
+                </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css image gallery</a> by WOWSlider.com v9.0</div>
+            <div class="ws_shadow"></div>
+            </div>	
+            <script type="text/javascript" src="engine1/wowslider.js"></script>
+            <script type="text/javascript" src="engine1/script.js"></script>
+
+    </section>
+    <section id="about" class="container-fluid p-4 about">
+        <h1>About <span class="text-danger">us</span></h1>
+        <p>At Hui Car Rental, we pride ourselves on delivering exceptional transportation solutions tailored to meet
+            your travel needs. Whether you're exploring a new city, embarking on a road trip, or simply need a reliable
+            vehicle for your daily commute, we're here to make your journey smooth and memorable.</p>
+        <p>Established with a passion for providing reliable, affordable, and convenient car rental services, Hui Car
+            Rental has grown to become a trusted name in the industry. Our commitment to customer satisfaction is at the
+            heart of everything we do. We strive to offer a seamless rental experience with a diverse fleet of
+            well-maintained vehicles and personalized service that exceeds expectations.</p>
+        <h4>Why Choose Hui Car Rental?</h4>
+        <li>Wide Selection of Vehicles: From compact cars for city explorations to spacious SUVs for family adventures,
+            our fleet caters to every travel preference.</li>
+        <li>Affordable Rates: Our pricing is designed to make renting a car easy and convenient for all budgets.</li>
+        <li>Personalized Service: Our team of experienced mechanics and customer service representatives will ensure
+            that your car is in top condition and ready for your journey.</li>
+        <li>Flexible Rental Options: Choose from daily, weekly, or monthly rental options to fit your schedule and
+            budget.</li>
+    </section>
+    <section id="fleet" class="container-fluid p-5 fleet">
+        <h1>Our <span class="text-danger">Fleet</span></h1>
+        <h4>Explore Our Fleet</h4>
+        <br>
+        <li>Vehicle Listings: Detailed listings of available vehicles, including</li>
+        <li>Photos: High-quality images showcasing different angles of each vehicle</li>
+        <li>Specifications: Make, model, year, transmission, fuel type, seating capacity, and more.</li>
+        <li>Features: Highlight special features such as GPS navigation, Bluetooth connectivity, and child seats.</li>
+        <li>Rental Rates: Clearly displayed daily, weekly, and monthly rates, including any additional fees or charges.
+        </li>
+        <button>View All Vehicles</button>
+    </section>
+    </section>
+    <section id="booking" class="container-fluid p-5 booking">
+        <h1>Book Your <span class="text-danger">Car</span></h1>
+        <h4>Fill Out Your Booking Form</h4>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h5>Pick Up Location</h5>
+                <input type="text" class="form-control" id="pickUpLocation" placeholder="Enter Pick Up Location"
+                    required>
+                <small id="pickUpLocationHelp" class="form-text text-muted">We'll never share your pick up location with
+                    anyone else.</small>
+
+
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="nameHelp" required>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="time" class="form-label">Time</label>
+                        <input type="time" class="form-control" id="time" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="vehicle" class="form-label">Vehicle</label>
+                        <select class="form-select" id="vehicle" required>
+                            <option selected disabled>Choose your vehicle</option>
+                            <option value="compact">Compact Car</option>
+                            <option value="suv">SUV</option>
+                            <option value="van">Van</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success">Book Now</button>
+                </form>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h1> Booking Your Rental Vehicle</h1>
+                <h4>Easy, Hassle-Free Booking Process</h4>
+                <p>Booking your rental vehicle with us is simple and straightforward. Follow these easy steps to secure your transportation:</p>
+                <h5>Select Your Dates and Locations:</h5>
+                <li>Use our intuitive booking form to enter your pickup and drop-off locations, along with your desired dates and times.</li>
+                <h5>Choose Your Vehicle:</h5>
+                <li>Browse through our extensive fleet of vehicles, each featuring detailed descriptions, photos, and specifications.</li>
+                <li>Select the car that best suits your needs, whether it's a compact car for city exploration or a spacious SUV for a family adventure.
+                </li>
+                <h5>Add Extras:</h5>
+                <li>If you have any additional needs or preferences, such as a GPS navigation system, Bluetooth connectivity, or child seats, feel free to add them to your booking.</li>
+                <h5>Complete Your Booking:</h5>
+                <li>Review your booking details and click the "Book Now" button to secure your vehicle and make your journey.</li>
+                <h5>Enjoy Your Rental:</h5>
+                <li>Your vehicle will be picked up at your specified pick-up location and dropped off at your drop-off location within the specified time frame. You will receive a confirmation email with your booking details and a receipt.</li>
+            </div>
+        </div>
+    </section>
+    <section id="service" class="container-fluid p-5  models">
+        <h1>list of <span class="text-danger">models</span></h1>
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div><div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div><div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div><div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div><div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div><div class="col-12 col-lg-3">
+                <div class="card" >
+                  <img src="suv.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">model:suv</h5>
+                    <button class="btn btn-primary" type="button">book now</button>
+                  </div>
+                </div>
+            </div>
+
+            
+           
+            
+           
+        </div>
+    </section>
+    <section id="contact" class="container-fluid p-5 footer">
+        <h1>Contact <span class="text-danger">us</span></h1>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <h5>Company Address</h5>
+                <hr>
+                <p>1234 Main St, City, State, Zip</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: contact@example.com</p>
+                <p>Email: info@example.com</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h5>Hours of Operation</h5>
+                <hr>
+                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                <p>Saturday: 9:00 AM - 3:00 PM</p>
+                <p>Sunday: Closed</p>
+                <p>Email: hours@example.com</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h5>Stay Connected</h5>
+                <hr>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-mail"></i></a>
+                <a href="#"><i class="bi bi-phone"></i></a>
+                <a href="#"><i class="bi bi-globe"></i></a>
+
+
+                <p>Email: social@example.com</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

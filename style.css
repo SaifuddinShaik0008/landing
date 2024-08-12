@@ -1,0 +1,105 @@
+.hide li{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+.hide li:hover{
+    background-color: gray;
+    color: red;
+    transition: all 0.5s ease;
+}
+
+
+
+.main a{
+    color: white;
+}
+.about{
+    background-color: black;
+    color: white;
+}
+.about h1{
+    text-align: center;
+    padding: 10px;
+}
+.fleet{
+    background-color: black;
+    color: white;
+}
+
+.fleet h1{
+    text-align: center;
+    padding: 10px;
+}
+.fleet li{
+    padding: 10px;
+}
+.fleet button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.fleet button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.booking{
+    background-color: black;
+    color: white;
+}
+.booking h1{
+    text-align: center;
+    padding: 10px;
+}
+.models{
+    background-color: black;
+    color: white;
+}
+
+.models h1{
+    text-align: center;
+    padding: 10px;
+}
+.card{
+    text-align: center;
+    margin-bottom: 20px;
+
+    box-shadow: 1px 1px 10px 5px rgb(34, 32, 32);
+    overflow: hidden;
+}
+.card img :hover{
+    transform: scaleX(1.05);
+    transition: all 0.5s ease;
+    
+}
+.card:hover{
+    box-shadow: 1px 1px 15px 10px rgb(34, 32, 32);
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+
+}
+.footer a{
+    font-size: 30px;
+    margin: 10px;
+}
+.footer h1{
+    text-align: center;
+    padding: 10px;
+}
+ .footer p{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
